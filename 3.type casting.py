@@ -1,0 +1,11 @@
+b=1
+s="annas"
+c=3.2
+a="333"
+f=int(a)
+print(f)
+d=float(b)
+print(d)
+print(type(c))
+print(type(b))
+print(type(s))
