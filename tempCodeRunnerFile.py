@@ -1,1 +1,1 @@
-raza
+sum(tt1)
