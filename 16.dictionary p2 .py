@@ -10,8 +10,13 @@ print(a.values())
 a.update({"annas":99,"javed":33})
 print(a)
 
+a.get("annasd")#return null
+a["annasd"]#returns error
+
+
 a.pop("ali")
 print(a)
+
 
 a.popitem()
 print(a)
