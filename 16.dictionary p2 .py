@@ -6,3 +6,12 @@ print(a)
 
 print(a.keys())
 print(a.items())
+print(a.values())
+a.update({"annas":99,"javed":33})
+print(a)
+
+a.pop("ali")
+print(a)
+
+a.popitem()
+print(a)
