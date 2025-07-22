@@ -2,7 +2,7 @@
 #ye mutable ha unordered hota
 #duplicate are not allowed
 
-a={}
+a={} #empty dictionary
 a={"annas":100,
    "ali":34,
    "shameer":44,

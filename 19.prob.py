@@ -12,7 +12,8 @@
 # a.add(a3)
 # print(a)
 
-# sd={44,"44"}
+
+# s2d={44,"44"}
 # # print(sd)
 
 # set={1,1.0,'1'} #in python 1=1.0
@@ -29,4 +30,5 @@ name=input("enter the name : ")
 lang=input("enter the language: ")    #agr same name ho tou jo pehle name likhe udr update hota
 d.update({name:lang})
 
+#printttt
 print(d)

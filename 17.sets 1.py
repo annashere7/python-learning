@@ -10,7 +10,7 @@ are associated with sets:
 5. Dynamic: Sets can grow and shrink in size as elements are added or removed.
 """
 s=set()
-print("Initial set:",type(s))
+print("Initial set:",type(s)) #empty set
 # Creating a set
 my_set = {1, 2, 3, 4, 5}
 print("Original set:", my_set)
