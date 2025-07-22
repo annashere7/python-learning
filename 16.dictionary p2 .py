@@ -14,6 +14,9 @@ a.get("annasd")#return null
 a["annasd"]#returns error
 
 
+
+
+
 a.pop("ali")
 print(a)
 

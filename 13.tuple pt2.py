@@ -4,7 +4,7 @@ no=a.count(33)
 print(no)
 
 index=a.index(33)
-print(index)        #hum new chez generate kr rahe orginal tuple same hi
+print(index)        #hum new chez generate kr rahe orginal tuple same hi rehta
 
 
 #for repeeated tuple
