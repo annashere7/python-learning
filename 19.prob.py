@@ -30,5 +30,6 @@ name=input("enter the name : ")
 lang=input("enter the language: ")    #agr same name ho tou jo pehle name likhe udr update hota
 d.update({name:lang})
 
-#printttt
+ 
+ 
 print(d)
