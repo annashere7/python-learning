@@ -31,5 +31,5 @@ lang=input("enter the language: ")    #agr same name ho tou jo pehle name likhe 
 d.update({name:lang})
 
  
- 
+
 print(d)
