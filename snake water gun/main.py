@@ -13,17 +13,24 @@ revDict={1:"snake",-1:"water",0:"gun"}
 
 you=youDict[youstr]
 print(f" you chose  {revDict[you]} \n computer chose {revDict[computer]}")
-if computer == 1 and you == -1:
-    print("You win")
-elif computer == -1 and you == 1:
-    print("You lose")
-elif computer == 0 and you == 1:
-    print("You win")
-elif computer == 1 and you == 0:
-    print("You lose")
-elif computer == -1 and you == 0:
-    print("You win")
-elif computer == you:
-    print("tie")
+
+if (computer-you)== -1 or (computer-you)==2 :
+    print("you lose ")
 else:
-    print("something went wrong")
+    print("you win")
+if(computer==you):
+    print("its a tie")
+# if computer == 1 and you == -1:
+#     print("You win")
+# elif computer == -1 and you == 1:
+#     print("You lose")
+# elif computer == 0 and you == 1:
+#     print("You win")
+# elif computer == 1 and you == 0:
+#     print("You lose")
+# elif computer == -1 and you == 0:
+#     print("You win")
+# elif computer == you:
+#     print("tie")
+# else:
+#     print("something went wrong")
